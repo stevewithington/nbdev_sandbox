@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev_sandbox"
+  site-url: "https://stevewithington.github.io/nbdev_sandbox"
+  description: "Sandbox nbdev project"
+  repo-branch: main
+  repo-url: "https://github.com/stevewithington/nbdev_sandbox"
