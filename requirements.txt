@@ -1,0 +1,8 @@
+### Install lastest versions:
+
+pip-system-certs
+setuptools
+jupyterlab
+nbdev
+
+### Install pinned versions:
