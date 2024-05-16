@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev_sandbox",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "nbdev_sandbox"
+    ]
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev_sandbox",
+    "section": "Install",
+    "text": "Install\npip install nbdev_sandbox",
+    "crumbs": [
+      "nbdev_sandbox"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev_sandbox",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "nbdev_sandbox"
+    ]
+  },
+  {
+    "objectID": "page1.html",
+    "href": "page1.html",
+    "title": "Card",
+    "section": "",
+    "text": "suits = [\"Clubs\",\"Diamonds\",\"Hearts\",\"Spades\"]\nranks = [None, \"A\"] + [str(x) for x in range(2,11)] + [\"J\",\"Q\",\"K\"]\n\n\nsuits\n\n['Clubs', 'Diamonds', 'Hearts', 'Spades']\n\n\n\nsuits[0]\n\n'Clubs'\n\n\nWe will be using numbers to represent playing cards and ranks. These are the ranks:\n\nranks\n\n[None, 'A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']\n\n\nFor instance the rank at index 1 (note that there isn’t a playing card at position 0, since we want the ranks to match the indicies where possible):\n\nranks[1]\n\n'A'\n\n\nExample of creating and displaying a card:\n\nc = Card(suit=1, rank=3)\nc\n\n3Diamonds\n\n\n\nsource\n\nCard\n\n Card (suit, rank)\n\nA playing card\n\n\n\n\nDetails\n\n\n\n\nsuit\nindex to suits\n\n\nrank\nindex to ranks",
+    "crumbs": [
+      "Card"
+    ]
+  }
+]
