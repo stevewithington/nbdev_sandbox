@@ -6,4 +6,6 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/stevewithington/nbdev_sandbox',
                 'lib_path': 'nbdev_sandbox'},
   'syms': { 'nbdev_sandbox.core': {'nbdev_sandbox.core.foo': ('core.html#foo', 'nbdev_sandbox/core.py')},
-            'nbdev_sandbox.page1': {'nbdev_sandbox.page1.foo': ('page1.html#foo', 'nbdev_sandbox/page1.py')}}}
+            'nbdev_sandbox.page1': { 'nbdev_sandbox.page1.Card': ('page1.html#card', 'nbdev_sandbox/page1.py'),
+                                     'nbdev_sandbox.page1.Card.__init__': ('page1.html#card.__init__', 'nbdev_sandbox/page1.py'),
+                                     'nbdev_sandbox.page1.Card.__str__': ('page1.html#card.__str__', 'nbdev_sandbox/page1.py')}}}
