@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://stevewithington.github.io',
                 'git_url': 'https://github.com/stevewithington/nbdev_sandbox',
                 'lib_path': 'nbdev_sandbox'},
-  'syms': {'nbdev_sandbox.core': {'nbdev_sandbox.core.foo': ('core.html#foo', 'nbdev_sandbox/core.py')}}}
+  'syms': { 'nbdev_sandbox.core': {'nbdev_sandbox.core.foo': ('core.html#foo', 'nbdev_sandbox/core.py')},
+            'nbdev_sandbox.page1': {'nbdev_sandbox.page1.foo': ('page1.html#foo', 'nbdev_sandbox/page1.py')}}}
